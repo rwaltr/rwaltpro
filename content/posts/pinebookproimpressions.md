@@ -15,10 +15,9 @@ This is a legacy post
 This machine has been offline for years. I hope yours still works
 {{< /alert >}}
 
-
 ## My Experience with the Pinebook Pro
 
-I recently obtained a Pinebook Pro with an ANSI Keyboard. My goal was to obtain a device that is not only an affordable, long lasting battery for conferences like [Texas Linux Fest](https://texaslinuxfest.org). But a laptop that I could use every day for editing, composing, and accessing remote environments.
+I obtained a Pinebook Pro with an ANSI Keyboard. My goal was to obtain a device that is not only an affordable, long lasting battery for conferences like [Texas Linux Fest](https://texaslinuxfest.org). But a laptop that I could use every day for editing, composing, and accessing remote environments.
 
 ## Unboxing
 
@@ -36,6 +35,6 @@ The default image leaves a bit to be desired. Unlike most Linux distributions yo
 
 After installing a few of my tools of the trade. The Pinebook Pro is able to do most tasks well, if it has a hardware transcoder for it. it will work well, however some beefier web applications will drag it to a crawl.
 
-## Whats next
+## What's next
 
 Fedora for the Pinebook to be tested. A OS that I am more familiar with. Or something along the lines of Manjaro I3 edition.
