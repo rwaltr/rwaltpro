@@ -61,4 +61,5 @@ title = "Walt's Terminus"
 #     { whatsapp = "https://wa.me/phone-number" },
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
+    { tokenring = "https://tokenring.monoxane.io/#rwaltr"},
   ]
