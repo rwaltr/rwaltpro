@@ -3,7 +3,6 @@ title: Managing Your Dotfiles With Minimal Tools
 subtitle: A Sysadmins Take On Config Management
 date: 2019-10-13
 author: Ryan Walter
-tags: ["git", "stow", "dotfiles", "linux"]
 ---
 
 

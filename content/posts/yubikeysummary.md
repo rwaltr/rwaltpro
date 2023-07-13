@@ -2,7 +2,6 @@
 title: The Yubikey Guide for Newbs
 subtitle: Seriously.. What can this do? 
 date: 2019-04-28
-tags: ["yubikey", "Gitlab", "Meta","Auth","ssh","guides"]
 ---
 
 

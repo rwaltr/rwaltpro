@@ -2,7 +2,6 @@
 title: First Pinebook Pro Impressions
 subtitle: Tons of Awesome in a small package
 date: 2020-03-25
-tags: ["Pinebook", "Pine64", "Laptop"]
 ---
 
 {{< alert >}}
