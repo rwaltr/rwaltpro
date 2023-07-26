@@ -6,7 +6,7 @@ tags: [Diary]
 topics: [Fermentation]
 ---
 ## Inspiration
-_First_, I would like to thank  **TheBruShow** {{< icon youtube >}} To inspire me trying this out, Please take a watch if this sounds Interesting to you
+_First_, I would like to thank  **TheBruShow** {{< icon youtube >}} To inspire me trying this out, Please take a watch if this sounds interesting to you
 
 {{< youtube jghauT9HrDE >}}
 
@@ -18,7 +18,7 @@ _First_, I would like to thank  **TheBruShow** {{< icon youtube >}} To inspire m
 
 In short, it's a _fermenting_ product. Meaning a bacteria/yeast that will consume sugar, then produce `CO2` and good ol' `alchohol` _(but in insignificant amounts in this case)_.
 
-Water Keifer is a specific combination of the bacteria and yeast. When given sugar water (or something akin to fruit juice). You end up with a somewhat yeasty tasting liquid that does not have the acidity that most would expect from a similar product called `Kombucha`. However, the fun comes with putting them into sealed bottles that can hold pressure, like those `Kombucha` bottles some of us may or may not have been collecting. You send up with a semi-sweet drink that is as fizzy as soda from a can.
+Water Keifer is a specific combination of the bacteria and yeast. When given sugar water (or something akin to fruit juice). You end up with a somewhat yeasty tasting liquid that does not have the acidity that most would expect from a similar product called `Kombucha`. However, the fun comes with putting them into sealed bottles that can hold pressure, like those `Kombucha` bottles some of us may or may not have been collecting. You end up with a semi-sweet drink that is as fizzy as soda from a can.
 
 ![A bottle of Kombucha](https://upload.wikimedia.org/wikipedia/commons/0/06/Kombucha%2C_Synergy_Organic_bottles.jpg) 
 
