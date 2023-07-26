@@ -69,6 +69,6 @@ weight = 5
   weight = 10
 
 [[footer]]
-  name = "Categories"
-  pageRef = "categories"
+  name = "Topics"
+  pageRef = "topics"
   weight = 20
