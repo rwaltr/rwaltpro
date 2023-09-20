@@ -9,7 +9,7 @@ showHero: false
 showTableOfContents: false
 ---
 # Me 👈
-Howdy! Welcome to the **Terminus**. My name is Ryan Walter, but you may know me better by my online handle, "*rwaltr*." I'm a passionate Site Reliability Engineer with a love for all things tech-related. From Linux and Kubernetes to electrical design and AI advancements, I'm constantly exploring and discovering the latest advancements in the tech world.
+Howdy! Welcome to the **Terminus**. My name is Ryan Walter, but you may know me better by my online handle, "*rwaltr*." I'm a passionate Kubernetes Engineer with a love for all things tech-related. From Linux and Kubernetes to electrical design and AI advancements, I'm constantly exploring and discovering the latest advancements in the tech world.
 
 #### Professional Background
 
