@@ -35,12 +35,12 @@ Alright, you just calculated your maximum `Running Watts`, this defines what you
 
 ## What does my homelab use?
 
-Now, go into your homelab, google, stare at your power bricks, you need to find the following information.
+Now, go into your homelab, google your hardware, stare at your power bricks, you need to find the following information.
 
 - If your computer only accepts an AC input
-  - What is its max `Watt` rating
+  - What is its max `Watt` rating?
 - If your computer/device has an external power brick.
-  - What is its `Volts` and `Amps`
+  - What is its `Volts` and `Amps`?
 
 Sort all this together
 
@@ -51,4 +51,55 @@ Sort all this together
 | 24 port edgemax switch    |  16-25  |    |  25  |
 | NAS   |    |    | 600   |
 | minipc x5   | 19   | 6   |   114 / 570 |
+
+Total it all up, my example shows us as `1315`
+
+Now, total up all your DC external power block devices. Mine is `715`
+
+We now know 3 out of 4 important numbers.
+
+- Your maximum energy bandwidth `1920`
+- Your homelab's maximum draw `1315`
+- How many watts we can consolidate `715`
+
+> Wait. Why are we doing everything by maximum usage? My homelab does not run at full power all of the time? - You, probably
+
+This is how your ('Merica) electrical code is written. It assumes you will be absolutely loony enough to run your heater, AC, Oven, Microwave, Dryer, Washer, Dog blanket and 3 space heaters at the same time.
+
+Finding your average usage is more of a cost savings process than capacity planning for what we are doing. Your welcome to grab your **Kill-A-Watt** but we will not be using it.
+
+
+## Lets grab our handy notebook. 📓
+
+Behold, the ***GRAPH***
+
+![A simple underwhelming graph](graph.png) 
+
+As small as it looks. This is our master plan. I promise.
+
+### Label your graph
+#### Label your devices
+
+![Devices](devices.png) 
+
+#### Label your Wall Power
+
+![Wall powers](wallpower.png) 
+
+#### Separate your DC and AC devices
+
+![acpower](acpower.png) 
+
+#### Determine your DC load
+
+![DC load](dcpower.png) 
+
+### Problem 1: The Power Supply
+
+[Wire size guide](https://www.youtube.com/watch?v=O2XOCy2zHG0) 
+
+### Problem 2: Distribution
+
+![Distribution](distribution.png) 
+
 
