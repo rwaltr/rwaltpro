@@ -96,10 +96,36 @@ As small as it looks. This is our master plan. I promise.
 
 ### Problem 1: The Power Supply
 
-[Wire size guide](https://www.youtube.com/watch?v=O2XOCy2zHG0) 
+Your power supply needs to be able to provide your homelab at full load. I am using a 1000w server power supply, but you could also use ATX power supplies, cheap amazon power supplies, or anything else you can find.
+
+To find if your power supply can handle the load, make sure it has the right wattage listed for your predicted max load.
 
 ### Problem 2: Distribution
 
 ![Distribution](distribution.png) 
+
+There are **two** kinds of distribution problems we need to solve.
+
+#### Problem 2.1 End User
+
+The end user, meaning your device, server, or branch networks, are going to have their own requirements on what voltage they are expecting.
+
+If your end user voltage is **different** from your backhaul voltage. you will need to use either a buck or boost converter to adjust the voltage. I would recommend grouping these loads together to save parts.
+
+![enduser](enduserdistro.png) 
+
+#### Problem 2.2 Backhaul
+
+Keep the below in mind.
+
+[Wire size guide](https://www.youtube.com/watch?v=O2XOCy2zHG0) 
+
+In general, the higher your backhaul voltage, the smaller wires you can use for the same power, We will need this at its largest rating off of the power supply. But a way to reduce long large wires is to use a distribution box with fuses for your smaller branches.
+
+![DC fuse block](dcfuseblock.png) 
+
+We need the fuses to protect the wires during a fault. If we have a fault on underrated unfused wire. We have a 🔥 hazard. The wire will go hot, and melt.
+
+This allows you to use more, but smaller wires, to power your loads. This is great for smaller setups, but not for large setups. 1000w at 12v is 90 amps, this requires large wires and fuses.
 
 
