@@ -1,9 +1,9 @@
 ---
 title: "HomeCompute - The Power Problem"
 descripton: "What is the maximum dosage"
-date: 2023-09-19
+date: 2023-10-05
 tags: [Diary, HomeCompute]
-draft: true
+draft: false
 topics: [Homelab]
 series: ["HomeCompute"]
 series_order: 2
@@ -128,4 +128,10 @@ We need the fuses to protect the wires during a fault. If we have a fault on und
 
 This allows you to use more, but smaller wires, to power your loads. This is great for smaller setups, but not for large setups. 1000w at 12v is 90 amps, this requires large wires and fuses.
 
+### Problem 3 Connectors
 
+In short, Anderson powerpoles and xt30 are great for anything under 30 amps. XT60 is great for higher currents, XT90 is also a thing.
+
+### Implementation
+
+Thats up next...
