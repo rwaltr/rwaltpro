@@ -25,7 +25,7 @@ A few things, Actually.
 
 I found that when using my moonlander, I did not use the inside edge at all. I did use the top, outer, and bottom edge, the voyager has the top, and outside edge. Seems reasonable.
 
-I do with I have some more keys by my thumb, but I am not sure the increase size is worth the extra buttons
+I do wish I have some more keys by my thumb, but I am not sure the increase size is worth the extra buttons
 
 ## The Choc Experience
 
