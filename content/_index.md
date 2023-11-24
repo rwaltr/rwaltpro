@@ -3,5 +3,5 @@
   tag=h2 
   speed=50
   loop=false >}}
-HomeCompute 🖥️ , Brewing 🫖, Kubernetes 🐳, Oh my!
+HomeCompute 🖥️, Kubernetes 🚢, Rabbit holes 📚, Oh my!
 {{</typeit>}}
