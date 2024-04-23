@@ -67,3 +67,10 @@ If you remember from my first HomeCompute, I mentioned Open19, and their bricks.
 
 # It might be time to ditch the 19in rack.
 
+A 19in rack only gives you about 17.5in or useable space for internal dimensions, 17.5 x 3.5in x 25in is not optimized for your home space, you either have to sacrifice in additional upward Us, or a deeper rack. At that point, you wont be able to reach the back of your rack easily, and most of your space will be wasted.
+
+If only there was some shape that is common and cheap enough for us to use and work with on a normal basis...
+
+## The KubeLab
+
+
