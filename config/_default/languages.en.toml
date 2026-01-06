@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Walt's Terminus"
+title = "The Administratum Archives"
 
 [params]
 displayName = "EN"
@@ -16,7 +16,7 @@ description = ""
 [author]
 name = "Ryan Walter"
 # image = "img/rwaltricon.png"
-headline = "Kubernetes Fan and GitOps nerd"
+headline = "Kubernetes Engineer and Administratum Archivist"
 # bio = ""
 links = [
   { email = "mailto:rwaltr@rwalt.pro" },
