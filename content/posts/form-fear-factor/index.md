@@ -83,7 +83,7 @@ With the advent of 3d printers, custom bended and shaped metal services, and onl
 
 ### The Kube
 
-![Blueprint of kubeframe alpha](./kubeframe.png) 
+![Blueprint of kubeframe alpha](./kubeframe.webp) 
 
 Imagine, a frame with an ecosystem, you can mount dedicated modules in a standard furniture, make it look good doing it. I know its asking for a lot. But the juice may be worth the squeeze.
 

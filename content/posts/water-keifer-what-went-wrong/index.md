@@ -30,9 +30,9 @@ The first actually fermented batches worked flawlessly, tasted great and has a r
 
 
 {{< gallery >}}
-  <img src="keiferpackage.jpg" class="grid-w30" />
-  <img src="keiferinjar.jpg" class="grid-w70" />
-  <img src="raisinsinkeifer.jpg" class="grid-w70" />
+  <img src="keiferpackage.webp" class="grid-w30" />
+  <img src="keiferinjar.webp" class="grid-w70" />
+  <img src="raisinsinkeifer.webp" class="grid-w70" />
 {{< /gallery >}}
 
 

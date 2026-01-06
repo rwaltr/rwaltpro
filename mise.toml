@@ -1,0 +1,15 @@
+[tools]
+hugo = "latest"
+ffmpeg = "latest"
+
+[tasks.serve]
+description = "Start Hugo development server"
+run = "hugo server -D"
+
+[tasks.build]
+description = "Build the site for production"
+run = "hugo --minify"
+
+[tasks.new]
+description = "Create a new post"
+run = "hugo new posts/$1/index.md"

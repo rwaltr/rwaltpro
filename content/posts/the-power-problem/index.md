@@ -73,26 +73,26 @@ Finding your average usage is more of a cost savings process than capacity plann
 
 Behold, the ***GRAPH***
 
-![A simple underwhelming graph](graph.png) 
+![A simple underwhelming graph](graph.webp) 
 
 As small as it looks. This is our master plan. I promise.
 
 ### Label your graph
 #### Label your devices
 
-![Devices](devices.png) 
+![Devices](devices.webp) 
 
 #### Label your Wall Power
 
-![Wall powers](wallpower.png) 
+![Wall powers](wallpower.webp) 
 
 #### Separate your DC and AC devices
 
-![acpower](acpower.png) 
+![acpower](acpower.webp) 
 
 #### Determine your DC load
 
-![DC load](dcpower.png) 
+![DC load](dcpower.webp) 
 
 ### Problem 1: The Power Supply
 
@@ -102,7 +102,7 @@ To find if your power supply can handle the load, make sure it has the right wat
 
 ### Problem 2: Distribution
 
-![Distribution](distribution.png) 
+![Distribution](distribution.webp) 
 
 There are **two** kinds of distribution problems we need to solve.
 
@@ -112,7 +112,7 @@ The end user, meaning your device, server, or branch networks, are going to have
 
 If your end user voltage is **different** from your backhaul voltage. you will need to use either a buck or boost converter to adjust the voltage. I would recommend grouping these loads together to save parts.
 
-![enduser](enduserdistro.png) 
+![enduser](enduserdistro.webp) 
 
 #### Problem 2.2 Backhaul
 
@@ -122,7 +122,7 @@ Keep the below in mind.
 
 In general, the higher your backhaul voltage, the smaller wires you can use for the same power, We will need this at its largest rating off of the power supply. But a way to reduce long large wires is to use a distribution box with fuses for your smaller branches.
 
-![DC fuse block](dcfuseblock.png) 
+![DC fuse block](dcfuseblock.webp) 
 
 We need the fuses to protect the wires during a fault. If we have a fault on underrated unfused wire. We have a 🔥 hazard. The wire will go hot, and melt.
 

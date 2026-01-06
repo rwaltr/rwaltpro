@@ -25,11 +25,11 @@ Well... They are right, but there is one problem they all skirt over.
 
 Because these devices MAY have a 3rd pin on their barrel jack, This is a data cable that will tell your computer if this is a "genuine" power supply, Which I can guarantee I don't have, or have any interest to run.
 
-![A diy power supply connected to a dell minimicro](powersupply.png)
+![A diy power supply connected to a dell minimicro](powersupply.webp)
 
 When it cannot detect a genuine power supply, it assumes the worst and throttles your CPU. There is nothing we can do to bypass this.
 
-![Error message](featured.png) 
+![Error message](featured.webp) 
 
 This will lead to 2 problems.
 

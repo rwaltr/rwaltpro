@@ -13,13 +13,13 @@ OpenCompute and SSIA are projects to either redefine, or provide extra definitio
 
 
 ## OpenCompute
-![OpenCompute Logo](opencompute.png)
+![OpenCompute Logo](opencompute.webp)
 ### What does OpenCompute bring to the table
 Opencompute touches multiple aspects of the datacenter, but we are most interested in [rack and power](https://www.opencompute.org/wiki/Open_Rack/SpecsAndDesigns) 
 ### What does a server's footprint look like?
 Opencompute includes a definition that essentially means "it can fit in a 19 inch rack", this is not much different from what we have now.
 ### What does power look like?
-![OCP Bus bar](opencomputebusbar.png) 
+![OCP Bus bar](opencomputebusbar.webp) 
 Opencompute uses a 48V bus bar, when fully installed, this 48v bus will feed the equipment via a connector on the back of the device, it is up to the equipment to regulate to its proper internal voltage. Power is fed from 1 or more "power shelves" which are dedicated devices with multiple load-sharing and redundant power supplies feedings them.
 ### What does networking look like?
 OpenCompute does not refine physical network interfaces for ethernet or fiber. Instead they are focused on a network switch that can run customized firmware.
@@ -30,7 +30,7 @@ OpenCompute does not refine physical network interfaces for ethernet or fiber. I
 ### What does SSIA bring to the table
 SSIA's Documentation can be found [here](https://gitlab.com/open19) 
 ### What does a server's footprint look like?
-![Bricks](open19bricks.png) 
+![Bricks](open19bricks.webp) 
 Open19 does not redefine the rack, it redefines what goes ***in the rack.***
 
 **Cages**, which are 8U tall, hold **Bricks**. which are 1U tall and half a rack unit wide. A brick can be double high, double wide, or anything in-between.
@@ -42,7 +42,7 @@ Open19 does not redefine the rack, it redefines what goes ***in the rack.***
 There is no 3 or 4 U definitions
  
 ### What does power look like?
-![Wires](open19wires.png) 
+![Wires](open19wires.webp) 
 Power is fed from 48v power shelves into these... "bus cables"? 🤷.
 
 These cables are slotted into the back of the cages, which then feed the bricks. I am not sure what this means if there is a double trouble brick. The cages do not require each slot to be filled. 
@@ -53,7 +53,7 @@ Same idea as power, dense cables. nothing we as homelabers can replicate
 ---
 
 ## What can we bring back to the homelab?
-![Dan's Homelab](featured.png) 
+![Dan's Homelab](featured.webp) 
 [Dan Manner's Homelab {{< icon "github" >}}](https://github.com/danmanners) 
 ### What *could* networking look like?
 Networking moves so fast, I think this would be best fit for something we can easily remove and reconnect on the front of a server.
