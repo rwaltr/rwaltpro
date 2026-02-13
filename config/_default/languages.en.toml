@@ -1,21 +1,21 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "The Administratum Archives"
+title = "Rwaltr's Field Notes"
 
 [params]
 displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2006-01-02"
-logo = "img/rwaltricon.png"
-# secondaryLogo = "img/rwaltricon.png"
+logo = "img/logo.svg"
+# secondaryLogo = "img/logo.svg"
 description = ""
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-name = "Ryan Walter"
-# image = "img/rwaltricon.png"
+name = "Rwaltr"
+# image = "img/logo.svg"
 headline = "Kubernetes Engineer and Administratum Archivist"
 # bio = ""
 links = [

@@ -9,7 +9,7 @@ showHero: false
 showTableOfContents: false
 ---
 # Me 👈
-Howdy! Welcome to **The Administratum Archives**. My name is Ryan Walter, but you probably know me as "*rwaltr*." 
+Howdy! Welcome to **Rwaltr's Field Notes**. My name is Rwaltr. 
 
 ### What do I do?
 
@@ -23,9 +23,9 @@ Even outside my day job, I'm neck-deep in my favorite tools. I'm an avid open so
 
 I tend to rotate hobbies every 3 months or so. The only constant is Linux—everything else is fair game.
 
-I've looked at railroads and the locomotives that run on them, pigeons, the credit card game for personal finance optimization, and I'm currently deep into Warhammer 40,000. I just started with the tabletop hobby, and I'm already dealing with the endless painting backlog everyone warned me about. There's something about the grim darkness of the far future that pairs surprisingly well with debugging Kubernetes clusters.
+I've looked at railroads and the locomotives that run on them, pigeons, and credit card stacking for personal finance optimization. These days I'm deep into Warhammer 40,000 — already drowning in the painting backlog everyone warned me about. There's something about the grim darkness of the far future that pairs surprisingly well with debugging Kubernetes clusters at 3 AM.
 
-3D printing has also grabbed my attention _(increasingly for terrain and hobby projects)_, and I'm always getting distracted by whatever shiny new thing catches my attention next.
+3D printing has become a permanent fixture at this point _(mostly terrain and hobby projects, occasionally useful things)_. And I'm always getting distracted by whatever shiny new thing catches my attention next — professionally overcommitted is a lifestyle, not a warning.
 
 I also adopted a bloodhound named Roxy this year. She's great at reminding me to take breaks from the screen.
 
@@ -40,6 +40,6 @@ I'm excited to share my insights and experiences with you through this archive. 
 ---
 # The Site 🖱️
 
-**The Administratum Archives** is a place for me to publicly post both my tech and hobby related musings. There is no schedule, there is no topic, only my keyboard and a worn out spellchecker.
+**Rwaltr's Field Notes** is a place for me to publicly post both my tech and hobby related musings. There is no schedule, there is no topic, only my keyboard and a worn out spellchecker.
 
 Thanks for visiting, and enjoy your stay. The Emperor protects.
