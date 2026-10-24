@@ -1,0 +1,15 @@
+/* ---------------------------------------------------------------------------
+ * Dark-mode logo
+ * The brand seal (assets/img/logo.svg) is navy (#0e2559) + gold (#b78a28)
+ * and is drawn for light backgrounds. On the dark header the navy fill reads
+ * as a muddy blob and the navy deer nearly disappears, so in dark mode we
+ * invert the navy to ivory (keeping the gold and the navy line work). The
+ * theme inlines the SVG in the header, so the paths can be recolored in CSS.
+ * ------------------------------------------------------------------------- */
+.dark .logo svg path[fill="#0e2559"] {
+  fill: #e9e3d1;
+}
+
+.dark .logo svg path[style*="stroke:#000000"] {
+  stroke: #0e2559 !important;
+}
