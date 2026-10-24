@@ -18,7 +18,7 @@ Lets start with a history lesson, shall we?
 
 ### The early 2000s of home computing
 
-![A older computer](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Ff%2Ff0%2FDell_Desktop_Computer_in_school_classroom.jpg&f=1&nofb=1&ipt=1dea0197a5baf5e62e64cfb255457dbda2e6434a7553f9c870050ef60755ba1f&ipo=images)
+![A older computer](a-older-computer.webp)
 
 Life was simple, You AOL'd your dial up with your netscape on yahoo. I think. 
 
@@ -27,7 +27,7 @@ In this age, Homelabbing was running your own ISP, BBS, or simple web server wit
 ### The 2015 era of home computing
 
 
-![Cuteboi84's Homelab'](https://preview.redd.it/my-new-server-rack-v0-69m5xw98hkca1.jpg?width=640&crop=smart&auto=webp&s=3f6df51f1d1b8d933fbf4f9fdf3a9839c4e59857) 
+![Cuteboi84's Homelab'](cuteboi84-s-homelab.webp) 
 Source: https://www.reddit.com/r/homelab/comments/10e7dry/my_new_server_rack/
 
 Ebay flows with surplus hardware, power is cheap, your wallet is thin, but the soul is willing. You just finished your ESXI Vmug purchase, and nothing can stop you and your 42U rack from computing perfection. 
@@ -52,17 +52,17 @@ Most of the rackmount gear is made for intel nucs, a somewhat dying platform, an
 There are a few preexisting sub computer mounting standards, surely we don't need to make another standard, right?
 
 ### DIN Rails
-![din rail computer](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.welotec.com%2Fwp-content%2Fuploads%2F2021%2F07%2Fsubstation-edge-controller-industrial-pc-din-rail-front-top-800.jpg&f=1&nofb=1&ipt=618f6d892dd501e522aec0b72e0636f4ec7c50729b261b2c8edb878636c72d4f&ipo=images) 
+![din rail computer](din-rail-computer.webp) 
 These are used in industrial settings, and are a bit of a pain to use, while the din rail itself is cheap, the actual computers and power supplies for this are expensive. This also limits you to small devices like SOCs and dedicated industrial computers. 
 ### Blade servers
 
-![Blade server](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fbladesmadesimple.com%2Fwp-content%2Fuploads%2F2009%2F09%2Fbladecenter-h-front1.jpg&f=1&nofb=1&ipt=86140cd1ecce6c6d97bc54e276b92c7fc3186f56efc10bb080ab81192805c72d&ipo=images) 
+![Blade server](blade-server.webp) 
 
 Blade servers are typically vendor locked in vendor specific chassis, and are not very common in the homelab space, as they are expensive and power hungry, and have no interchangeability. 
 
 ### Open19's Bricks
 
-![brick](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F7%2F7e%2FBrick_pile.jpg&f=1&nofb=1&ipt=3f168403bfa76e53538df27dcd4b0f286bb114dc557b077c69cf2f95e1e68cb4&ipo=images) 
+![brick](brick.webp) 
 If you remember from my first HomeCompute, I mentioned Open19, and their bricks. I think this has some merit, but the actual execution of this is difficult to execute in the home, due to their specialized dense cables. 
 
 ## It might be time to ditch the 19in rack.

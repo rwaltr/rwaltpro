@@ -20,7 +20,7 @@ In short, it's a _fermenting_ product. Meaning a bacteria/yeast that will consum
 
 Water Keifer is a specific combination of the bacteria and yeast. When given sugar water (or something akin to fruit juice). You end up with a somewhat yeasty tasting liquid that does not have the acidity that most would expect from a similar product called `Kombucha`. However, the fun comes with putting them into sealed bottles that can hold pressure, like those `Kombucha` bottles some of us may or may not have been collecting. You end up with a semi-sweet drink that is as fizzy as soda from a can.
 
-![A bottle of Kombucha](https://upload.wikimedia.org/wikipedia/commons/0/06/Kombucha%2C_Synergy_Organic_bottles.jpg) 
+![A bottle of Kombucha](a-bottle-of-kombucha.webp) 
 
 ## Strong start
 

@@ -26,7 +26,7 @@ OpenCompute does not refine physical network interfaces for ethernet or fiber. I
 
 ---
 ## Open19 (now called the [SSIA](https://www.ssia.org/))
-![SSIA Logo](https://www.ssia.org/wp-content/uploads/2023/07/logo.png) 
+![SSIA Logo](ssia-logo.webp) 
 ### What does SSIA bring to the table
 SSIA's Documentation can be found [here](https://gitlab.com/open19) 
 ### What does a server's footprint look like?

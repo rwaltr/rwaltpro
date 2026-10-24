@@ -7,7 +7,7 @@ topics: [keyboards]
 ---
 
 # The newest of the new.
-![The Voyager Keyboard](https://res.cloudinary.com/zsa-technology/image/upload/f_auto/q_auto/c_scale,w_1854/v1/zsa-io-refactor-prod/@voyager/images/home/voyager-hero?_a=BATCvBOY0) 
+![The Voyager Keyboard](the-voyager-keyboard.webp) 
 
 > Who gave you the right to talk about this keyboard?
 

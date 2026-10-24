@@ -8,7 +8,7 @@ topics: [Homelab]
 series: ["HomeCompute"]
 series_order: 2
 ---
-![XKCD Power converter](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimgs.xkcd.com%2Fcomics%2Funiversal_converter_box_2x.png&f=1&nofb=1&ipt=3981cfac1012b8c442d36956a82c3edbbe0ecfceed63fae9baf4cae5c80fa4b1&ipo=images) 
+![XKCD Power converter](xkcd-power-converter.webp) 
 ## Power, it is already in the wall?
 
 If there is anything I ever learned, it is that someone else has **already** solved your problem, the tricky part is finding and applying it.
