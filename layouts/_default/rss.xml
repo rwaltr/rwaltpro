@@ -40,11 +40,17 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      {{- /* Full post content. Absolutize page-bundle-relative image/link URLs so
-             feed readers can resolve them outside the site context. */ -}}
+      {{- /* Full post content, prepared for feed readers:
+             1. Drop the hover-only heading anchor links ("#") the theme injects;
+                they render as a stray "#" in reader views.
+             2. Absolutize any genuinely relative src/href (Hugo already emits
+                absolute URLs for resolved page resources). Keep the patterns
+                anchored so absolute (https://, //) and root-relative (/...)
+                URLs are never re-prefixed. */ -}}
       {{- $content := .Content -}}
+      {{- $content = $content | replaceRE `<span\s+class="absolute[^"]*"[^>]*>\s*<a[^>]*>\s*#\s*</a>\s*</span>` "" -}}
       {{- $content = $content | replaceRE `(src|href)="\./` (printf `$1="%s` .Permalink) -}}
-      {{- $content = $content | replaceRE `(src|href)="([^"/:][^"]*\.(?:png|jpe?g|webp|gif|svg|avif))"` (printf `$1="%s$2"` .Permalink) -}}
+      {{- $content = $content | replaceRE `(src|href)="([^":/][^":]*\.(?:png|jpe?g|webp|gif|svg|avif))"` (printf `$1="%s$2"` .Permalink) -}}
       <description>{{ $content | transform.XMLEscape | safeHTML }}</description>
       {{ range ( where .Site.RegularPages ".RelPermalink" .RelPermalink | first 1 ) }}
         {{- $images := .Resources.ByType "image" -}}
