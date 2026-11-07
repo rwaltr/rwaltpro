@@ -1,6 +1,6 @@
 ---
 title: "First thoughts on the voyager keyboard"
-descripton: "This thing is a thin keyboard"
+description: "This thing is a thin keyboard"
 date: 2023-11-24
 tags: [keyboards, ZSA]
 topics: [keyboards]

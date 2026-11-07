@@ -1,0 +1,62 @@
+amends "package://github.com/jdx/hk/releases/download/v1.45.0/hk@1.45.0#/Config.pkl"
+import "package://github.com/jdx/hk/releases/download/v1.45.0/hk@1.45.0#/Builtins.pkl"
+
+// Single source of truth for linting. mise tasks and CI both call hk:
+//   mise run lint -> hk check --all
+//   mise run fmt  -> hk fix --all
+//   git hook      -> hk run pre-commit (fast steps only)
+
+// Fast, per-file steps. Safe to run on every commit.
+local fast = new Mapping<String, Step> {
+    // Whitespace/encoding rules live in .editorconfig (editors honour it too).
+    ["editorconfig-checker"] = (Builtins.editorconfig_checker) {
+        check = "editorconfig-checker {{files}}"
+        fix = "editorconfig-checker -fix {{files}}"
+    }
+    ["check-added-large-files"] = Builtins.check_added_large_files
+    ["check-merge-conflict"] = Builtins.check_merge_conflict
+    ["detect-private-key"] = Builtins.detect_private_key
+    // shortcut: content/**/*.md is excluded until its ~200 legacy markdownlint
+    // violations are normalised; drop the exclude once they are fixed.
+    ["markdownlint"] {
+        glob = List("**/*.md")
+        exclude = List("content/**")
+        check = "markdownlint-cli2 --config .github/linters/markdownlint.yaml {{files}}"
+        fix = "markdownlint-cli2 --config .github/linters/markdownlint.yaml --fix {{files}}"
+    }
+    ["yamllint"] = (Builtins.yamllint) {
+        batch = true
+        check = "yamllint -c .github/linters/yamllint.yaml {{files}}"
+    }
+    ["actionlint"] = (Builtins.actionlint) {
+        check = "actionlint -shellcheck=shellcheck {{files}}"
+    }
+    // Repo-wide scan: --hidden is required or typos skips .github/; it also
+    // pulls in .git and the theme submodule, so exclude both explicitly.
+    ["typos"] {
+        check = "typos -c .github/linters/typos.toml --force-exclude --hidden --exclude .git --exclude themes"
+        fix = "typos -c .github/linters/typos.toml --force-exclude --hidden --exclude .git --exclude themes --write-changes"
+    }
+}
+
+hooks {
+    ["pre-commit"] {
+        fix = true
+        // No stash: hk's git-stash step fails on the themes/blowfish submodule
+        // ("Is a directory") and aborts the commit.
+        steps {
+            ...fast
+        }
+    }
+    ["check"] {
+        steps {
+            ...fast
+        }
+    }
+    ["fix"] {
+        fix = true
+        steps {
+            ...fast
+        }
+    }
+}

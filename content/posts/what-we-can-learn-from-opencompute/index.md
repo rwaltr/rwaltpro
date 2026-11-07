@@ -1,6 +1,6 @@
 ---
 title: "OpenCompute and Open19 for the Homelab"
-descripton: "What can we learn from hardware creating giants"
+description: "What can we learn from hardware creating giants"
 date: 2023-09-19
 tags: [Diary, HomeCompute]
 topics: [Homelab]

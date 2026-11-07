@@ -1,0 +1,5 @@
+# Repo-specific false positives for `typos`.
+# Add `word = "word"` entries under [default.extend-words] as needed.
+[default.extend-words]
+mosquitto = "mosquitto" # MQTT broker
+speaches = "speaches"   # TTS server

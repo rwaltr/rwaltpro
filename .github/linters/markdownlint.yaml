@@ -1,0 +1,24 @@
+---
+default: true
+
+# MD013/line-length — prose docs contain long URLs/logs; not worth gating
+MD013: false
+
+# MD033/no-inline-html — repo uses inline HTML intentionally
+MD033: false
+
+# MD040/fenced-code-language — bare fences across prose docs; tagging them all
+# with a language adds churn without value
+MD040: false
+
+# MD001/heading-increment — docs jump h2 -> h3 after bold lead-ins; fine
+MD001: false
+
+# MD045/no-alt-text — decorative badges/banner images in READMEs
+MD045: false
+
+# MD041/first-line-heading — files may start with front matter or HTML blocks
+MD041: false
+
+# MD025/single-title — some docs have H1 after a front-matter/title block
+MD025: false

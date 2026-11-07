@@ -1,6 +1,24 @@
+min_version = "2026.8.0"
+
+[settings]
+task.timings = true
+
 [tools]
-hugo-extended = "0.167.0"
+hugo-extended = "0.169.0"
 ffmpeg = "latest"
+
+# Git hooks (hk.pkl) — hk needs pkl to evaluate its config.
+# hk is pinned to match the version hk.pkl amends; bump both together.
+hk = "1.45.0"
+pkl = "latest"
+
+# Linters run via `mise run lint` and hk (see hk.pkl)
+actionlint = "latest"
+editorconfig-checker = "latest"
+"npm:markdownlint-cli2" = "latest"
+"pipx:yamllint" = "latest"
+shellcheck = "latest"
+typos = "latest"
 
 [tasks.serve]
 description = "Start Hugo development server"
@@ -13,3 +31,15 @@ run = "hugo --minify"
 [tasks.new]
 description = "Create a new post"
 run = "hugo new posts/$1/index.md"
+
+[tasks.lint]
+description = "Lint all files (hk check)"
+run = "hk check --all"
+
+[tasks.fmt]
+description = "Auto-fix all files (hk fix)"
+run = "hk fix --all"
+
+[tasks.hooks]
+description = "Install git hooks via hk"
+run = "hk install"

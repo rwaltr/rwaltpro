@@ -41,9 +41,9 @@
       {{ with .Site.Params.Author.email }}<author>{{.}}{{ with $.Site.Params.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       {{- /* Full post content, prepared for feed readers:
-             1. Drop the hover-only heading anchor links ("#") the theme injects;
+              1. Drop the hover-only heading anchor links ("#") the theme injects;
                 they render as a stray "#" in reader views.
-             2. Absolutize any genuinely relative src/href (Hugo already emits
+              2. Absolutize any genuinely relative src/href (Hugo already emits
                 absolute URLs for resolved page resources). Keep the patterns
                 anchored so absolute (https://, //) and root-relative (/...)
                 URLs are never re-prefixed. */ -}}

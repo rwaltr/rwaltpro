@@ -1,6 +1,7 @@
+---
 name: GitHub Pages
 
-on:
+on: # yamllint disable-line rule:truthy
   workflow_dispatch:
   push:
     branches:
@@ -17,6 +18,22 @@ defaults:
     shell: bash
 
 jobs:
+  lint:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          submodules: recursive
+      - name: Setup mise
+        uses: jdx/mise-action@v5
+        with:
+          install: true
+      - name: Lint
+        run: mise run lint
+
   build:
     runs-on: ubuntu-latest
     steps:
@@ -24,13 +41,12 @@ jobs:
         uses: actions/checkout@v7
         with:
           submodules: recursive
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - name: Setup mise
+        uses: jdx/mise-action@v5
         with:
-          hugo-version: "0.167.0"
-          extended: true
+          install: true
       - name: Build
-        run: hugo --minify
+        run: mise run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'

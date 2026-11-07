@@ -1,6 +1,6 @@
 ---
 title: "Water Keifer: What went wrong?"
-descripton: "Water Keifer, What is it and what happened?"
+description: "Water Keifer, What is it and what happened?"
 date: 2023-07-26
 tags: [Diary]
 topics: [Fermentation]
@@ -16,7 +16,7 @@ _First_, I would like to thank  **TheBruShow** {{< icon youtube >}} To inspire m
 
 ### What is Water Keifer anyways?
 
-In short, it's a _fermenting_ product. Meaning a bacteria/yeast that will consume sugar, then produce `CO2` and good ol' `alchohol` _(but in insignificant amounts in this case)_.
+In short, it's a _fermenting_ product. Meaning a bacteria/yeast that will consume sugar, then produce `CO2` and good ol' `alcohol` _(but in insignificant amounts in this case)_.
 
 Water Keifer is a specific combination of the bacteria and yeast. When given sugar water (or something akin to fruit juice). You end up with a somewhat yeasty tasting liquid that does not have the acidity that most would expect from a similar product called `Kombucha`. However, the fun comes with putting them into sealed bottles that can hold pressure, like those `Kombucha` bottles some of us may or may not have been collecting. You end up with a semi-sweet drink that is as fizzy as soda from a can.
 

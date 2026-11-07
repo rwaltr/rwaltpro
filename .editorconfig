@@ -1,0 +1,19 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# Markdown hard line breaks are written as two trailing spaces, and list
+# continuation indentation is author-dependent.
+[*.md]
+trim_trailing_whitespace = false
+indent_style = unset
+
+# git writes .gitmodules with tabs.
+[.gitmodules]
+indent_style = tab

@@ -1,6 +1,6 @@
 ---
 title: "HomeCompute - MiniMicroGrift"
-descripton: "They are too smart for their own good"
+description: "They are too smart for their own good"
 date: 2023-11-26
 tags: [Diary, HomeCompute]
 draft: false

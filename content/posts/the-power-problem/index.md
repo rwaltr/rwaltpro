@@ -1,6 +1,6 @@
 ---
 title: "HomeCompute - The Power Problem"
-descripton: "What is the maximum dosage"
+description: "What is the maximum dosage"
 date: 2023-10-05
 tags: [Diary, HomeCompute]
 draft: false

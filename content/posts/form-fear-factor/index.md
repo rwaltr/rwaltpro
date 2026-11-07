@@ -1,6 +1,6 @@
 ---
 title: "HomeCompute - The Form Factor Fear Factor"
-descripton: "What even is a rack unit?"
+description: "What even is a rack unit?"
 date: 2024-04-16
 tags: [Diary, HomeCompute]
 draft: false
