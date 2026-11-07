@@ -1,0 +1,19 @@
+#:schema https://pitchfork.jdx.dev/schema.json
+#
+# The Hugo dev server, supervised by pitchfork (the daemon backend mise ships).
+# Start it once and it keeps running after the CLI exits, with logs and status
+# available from any terminal.
+#
+#   mise run serve        # start, waiting until it is actually serving
+#   mise run serve:status
+#   mise run serve:logs   # tail
+#   mise run serve:stop
+#
+# The same works via raw pitchfork: `pitchfork start hugo`, etc.
+
+[daemons.hugo]
+run = "hugo server -D"
+# Wait for a real HTTP response instead of guessing at a sleep.
+ready_http = "http://127.0.0.1:1313/"
+# A dev server that dies should come back on its own.
+retry = true

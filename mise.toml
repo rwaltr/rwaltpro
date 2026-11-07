@@ -12,6 +12,9 @@ ffmpeg = "latest"
 hk = "1.45.0"
 pkl = "latest"
 
+# Dev server supervision (the daemon backend mise ships) — see pitchfork.toml
+pitchfork = "latest"
+
 # Linters run via `mise run lint` and hk (see hk.pkl)
 actionlint = "latest"
 editorconfig-checker = "latest"
@@ -21,8 +24,20 @@ shellcheck = "latest"
 typos = "latest"
 
 [tasks.serve]
-description = "Start Hugo development server"
-run = "hugo server -D"
+description = "Start the Hugo dev server under pitchfork"
+run = "pitchfork start hugo"
+
+[tasks."serve:status"]
+description = "Show the Hugo dev server status"
+run = "pitchfork status hugo"
+
+[tasks."serve:logs"]
+description = "Tail the Hugo dev server logs"
+run = "pitchfork logs hugo -f"
+
+[tasks."serve:stop"]
+description = "Stop the Hugo dev server"
+run = "pitchfork stop hugo"
 
 [tasks.build]
 description = "Build the site for production"
