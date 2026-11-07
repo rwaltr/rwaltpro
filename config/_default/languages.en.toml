@@ -15,9 +15,9 @@ description = ""
 
 [params.author]
 name = "Rwaltr"
-# image = "img/logo.svg"
-headline = "Kubernetes Engineer and Administratum Archivist"
-# bio = ""
+image = "img/logo.svg"
+headline = "Engineer, tinkerer, dad"
+bio = "Infrastructure engineer, home-lab tinkerer, and dad."
 links = [
   { email = "mailto:rwaltr@rwalt.pro" },
   #     { link = "https://link-to-some-website.com/" },

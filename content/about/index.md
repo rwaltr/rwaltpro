@@ -4,42 +4,49 @@ showDate: false
 showWordCount: false
 SharingLinks: false
 showPagination: false
-showAuthor: true
+showAuthor: false
 showHero: false
 showTableOfContents: false
 ---
-# Me 👈
-Howdy! Welcome to **Rwaltr's Field Notes**. My name is Rwaltr. 
 
-### What do I do?
+I'm Ryan. I build and run infrastructure - mostly Kubernetes and a home lab that refuses to stay simple - and I spend my days learning in public: open-source AI tooling, fleet automation, and a growing pile of Warhammer.
 
-I'm a Kubernetes Engineer who spends way too much time thinking about GitOps, infrastructure automation, and why things break at 3 AM. 
+I became a dad this year, so the schedule is whatever the baby says it is. A bloodhound named Roxy handles quality control.
 
-Throughout my career, I've worked on defining policies, managing projects, and keeping complex systems from catching fire _(digitally speaking)_. I've worked on diverse projects, optimizing infrastructure and streamlining operations.
+## What do I do?
 
-Even outside my day job, I'm neck-deep in my favorite tools. I'm an avid open source and Linux enthusiast, constantly tinkering with the latest in the *DevOps* ecosystem. Kubernetes has captured my interest, and it single-handedly saved my *homelab* with its advanced automation.
+Plenty, depending on the day.
 
-### What else am I into?
+Most of my hands-on time goes into **home-ops**, a Kubernetes and Terraform fleet I run for my own domains. It's the testbed for everything else: GitOps, storage, networking, backups, and the quiet work of keeping it all running.
 
-I tend to rotate hobbies every 3 months or so. The only constant is Linux—everything else is fair game.
+The other thread is **open-source AI tooling** - how it fits into a home lab and into daily life. What actually helps, what looks great in a demo and falls over on contact, and what's worth handing to someone else. I learn it by building it, breaking it, and writing it down.
 
-I've looked at railroads and the locomotives that run on them, pigeons, and credit card stacking for personal finance optimization. These days I'm deep into Warhammer 40,000 — already drowning in the painting backlog everyone warned me about. There's something about the grim darkness of the far future that pairs surprisingly well with debugging Kubernetes clusters at 3 AM.
+Underneath all of it is the same loop: build it, automate it, document it, then go find whatever breaks next.
 
-3D printing has become a permanent fixture at this point _(mostly terrain and hobby projects, occasionally useful things)_. And I'm always getting distracted by whatever shiny new thing catches my attention next — professionally overcommitted is a lifestyle, not a warning.
+If you want the résumé framing: Kubernetes engineer, with a long-running interest in storage, CNI, and automation.
 
-I also adopted a bloodhound named Roxy this year. She's great at reminding me to take breaks from the screen.
+## What am I into off the clock?
 
-### Community stuff
+I rotate hobbies, but a few things have stuck.
 
-I believe in the power of sharing knowledge and learning from others. That's why I actively participate in the [K8s@Home](https://discord.gg/kXU9DfGq) Discord. It's a fantastic platform where I can contribute my experiences, connect with like-minded individuals, and stay up-to-date with the latest trends and advancements in Kubernetes and related technologies.
+**Warhammer 40,000** is the current constant. I'm well into the painting backlog everyone warned me about, and the grim darkness of the far future turns out to pair just fine with debugging clusters.
 
-### Let's Connect!
+**3D printing** isn't running at the moment - the printer is dead - but I keep the mindset it gave me: the basics, elevated, beat clever solutions almost every time. That lesson outlived the hardware.
 
-I'm excited to share my insights and experiences with you through this archive. Feel free to reach out to me if you have any questions, suggestions, or just want to connect. You can find me on the links on the [homepage](/). Don't hesitate to drop me a message. I'm always eager to engage in meaningful discussions and learn from fellow tech enthusiasts.
+And then there's **Roxy**, a bloodhound who is excellent at reminding me to step away from the screen.
 
----
-# The Site 🖱️
+<img src="/about/roxy.webp" alt="Roxy the bloodhound" width="850" height="1133" loading="lazy" decoding="async">
 
-**Rwaltr's Field Notes** is a place for me to publicly post both my tech and hobby related musings. There is no schedule, there is no topic, only my keyboard and a worn out spellchecker.
+The common thread is tinkering: take something apart, understand how it works, and leave it a little better than you found it.
 
-Thanks for visiting, and enjoy your stay. The Emperor protects.
+## How do I reach you?
+
+Email is the best way to get to me: **rwaltr@rwalt.pro**. For everything else, the links on the homepage - GitHub, the token ring, and RSS. No forms, no scheduling links. If something here was useful, or you want to compare notes on home labs or AI tooling, say hello.
+
+## What is this site?
+
+I write here to think. Putting something into words is how I find out whether I actually understand it - and it's a lot cheaper than making the same mistake twice.
+
+Some of it is infrastructure, some of it is whatever I'm painting or cooking. All of it is field notes.
+
+Thanks for stopping by. The Emperor protects.

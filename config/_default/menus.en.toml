@@ -1,7 +1,7 @@
 # -- Main Menu --
 # The main menu is displayed in the header at the top of the page.
 # Acceptable parameters are name, pageRef, page, url, title, weight.
-# 
+#
 # The simplest menu configuration is to provide:
 #   name = The name to be displayed for this menu link
 #   pageRef = The identifier of the page or section to link to
@@ -11,9 +11,24 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
- name = "Blog"
- pageRef = "posts"
- weight = 10
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+name = "Homelab Stack"
+pageRef = "homelab-stack"
+weight = 20
+
+[[main]]
+name = "Local Setup"
+pageRef = "local-setup"
+weight = 30
+
+[[main]]
+name = "Things I Like"
+pageRef = "things-i-like"
+weight = 40
 
 [[main]]
 name = "About Me"
